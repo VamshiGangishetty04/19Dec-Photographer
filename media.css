@@ -1,0 +1,63 @@
+@media screen and (max-width: 600px) {
+    .header {
+        width: 100%;
+    }
+    .border{
+        top: 9%;
+        transform: translate(-50%, -50%);
+        font-size: 8px;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .border>h4{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .menu2{
+        width: 100%;
+    }
+    .portfolio{
+        top: 40%;
+        width: 80%;
+        left: 10%;
+    }
+    .contact,.p,.input,button>p,footer>p{
+        font-size: 12px;
+    }
+    input,button{
+        height: 20px;
+    }
+    footer{
+        padding: 30px;
+    }
+}
+@media screen and (min-width: 601px) {
+    .menu2{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .header {
+        width: 100%;
+    }
+    .border{
+        top: 15%;
+        transform: translate(-50%, -50%);
+        font-size: 15px;
+        padding: 15px;
+    }
+    .menu{
+        position: sticky;
+    }
+    .portfolio{
+        top: 53%;
+        width: 80%;
+        left: 10%;
+    }
+}
